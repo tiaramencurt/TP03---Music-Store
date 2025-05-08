@@ -15,3 +15,4 @@ namespace TP03posta.Models
             this.link = l;
         }
     }
+}
