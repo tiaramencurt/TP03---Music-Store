@@ -5,22 +5,13 @@ using System.Web;
 
 namespace TP03posta.Models
 {
-    public class Disco
+    public class Cancion
     {
-        public string artista { get; private set; }
-        public string productor { get; private set; }
-        public string genero { get; private set; }
-        public List<string> canciones { get; private set; }
-        public int id { get; private set; }
-        public string foto { get; private set; }
-        public Disco(string a, string p, string g, List<string> c, int i, string f)
+        public string nombre { get; private set; }
+        public string link { get; private set; }
+        public Cancion(string n, string l)
         {
-            this.artista = a;
-            this.productor = p;
-            this.genero = g;
-            this.canciones = c;
-            this.id = i;
-            this.foto = f;
-
+            this.nombre = n;
+            this.link = l;
         }
     }
