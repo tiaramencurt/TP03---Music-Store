@@ -92,16 +92,16 @@ List<Cancion> cancionesShakira = new List<Cancion> { HipsDontLie, WakaWaka, Mono
 
 // =================== DISCOS ===================
 
-Disco Fearless = new Disco("Fearless", "Taylor Swift", "Jack Antonoff", "Pop / Country", cancionesTaylor, 0);
-Disco UnVeranoSinTi = new Disco("Un Verano Sin Ti", "Bad Bunny", "Tainy", "Reggaetón / Trap latino", cancionesBadBunny, 1);
-Disco HappierThanEverDisco = new Disco("Happier Than Ever", "Billie Eilish", "Finneas", "Pop alternativo", cancionesBillie, 2);
-Disco FutureNostalgia = new Disco("Future Nostalgia", "Dua Lipa", "Ian Kirkpatrick", "Pop / Dance", cancionesDua, 3);
-Disco HarrysHouse = new Disco("Harry's House", "Harry Styles", "Kid Harpoon", "Pop / Rock", cancionesHarry, 4);
-Disco MotomamiDisco = new Disco("Motomami", "ROSALÍA", "El Guincho", "Pop / Experimental", cancionesRosalia, 5);
-Disco Divide = new Disco("Divide", "Ed Sheeran", "Ed Sheeran", "Pop / Folk", cancionesEd, 6);
-Disco MananaSeraBonito = new Disco("Mañana Será Bonito", "Karol G", "Ovy On The Drums", "Urbano / Reggaetón", cancionesKarol, 7);
-Disco AfterHours = new Disco("After Hours", "The Weeknd", "Max Martin", "Synthpop / R&B", cancionesWeeknd, 8);
-Disco ElDorado = new Disco("El Dorado", "Shakira", "Luis Fernando Ochoa", "Pop latino / Reggaetón", cancionesShakira, 9);
+Disco Fearless = new Disco("Fearless", "Taylor Swift", "Jack Antonoff", "Pop / Country", cancionesTaylor, 0, "/imagenes/taylor swift.jpg");
+Disco UnVeranoSinTi = new Disco("Un Verano Sin Ti", "Bad Bunny", "Tainy", "Reggaetón / Trap latino", cancionesBadBunny, 1, "/imagenes/bad bunnt.jpg");
+Disco HappierThanEverDisco = new Disco("Happier Than Ever", "Billie Eilish", "Finneas", "Pop alternativo", cancionesBillie, 2, "/imagenes/billie eilish.jpg");
+Disco FutureNostalgia = new Disco("Future Nostalgia", "Dua Lipa", "Ian Kirkpatrick", "Pop / Dance", cancionesDua, 3, "/imagenes/dua lipa.jpg");
+Disco HarrysHouse = new Disco("Harry's House", "Harry Styles", "Kid Harpoon", "Pop / Rock", cancionesHarry, 4, "/imagenes/harry styles.jpg");
+Disco MotomamiDisco = new Disco("Motomami", "ROSALÍA", "El Guincho", "Pop / Experimental", cancionesRosalia, 5, "/imagenes/rosalia.jpg");
+Disco Divide = new Disco("Divide", "Ed Sheeran", "Ed Sheeran", "Pop / Folk", cancionesEd, 6, "/imagenes/ed sheeran.jpg");
+Disco MananaSeraBonito = new Disco("Mañana Será Bonito", "Karol G", "Ovy On The Drums", "Urbano / Reggaetón", cancionesKarol, 7, "/imagenes/karol g.jpg");
+Disco AfterHours = new Disco("After Hours", "The Weeknd", "Max Martin", "Synthpop / R&B", cancionesWeeknd, 8, "/imagenes/the weeknd.jpg");
+Disco ElDorado = new Disco("El Dorado", "Shakira", "Luis Fernando Ochoa", "Pop latino / Reggaetón", cancionesShakira, 9, "/imagenes/shakira.jpg");
 
         }
     }
