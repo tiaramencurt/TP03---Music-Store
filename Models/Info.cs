@@ -79,16 +79,16 @@ Cancion Chantaje = new Cancion("Chantaje", "https://youtu.be/6Mgqbai3fKo");
 
 // =================== LISTAS DE CANCIONES ===================
 
-List<Cancion> cancionesTaylor = new List<Cancion> (LoveStory, BlankSpace, AntiHero, CruelSummer) ;
-List<Cancion> cancionesBadBunny = new List<Cancion> ( TitiMePregunto, MePortoBonito, Yonaguni, OjitosLindos );
-List<Cancion> cancionesBillie = new List<Cancion> (BadGuy, HappierThanEver, OceanEyes, ThereforeIAm) ;
-List<Cancion> cancionesDua = new List<Cancion> ( DontStartNow, Levitating, NewRules, Houdini );
-List<Cancion> cancionesHarry = new List<Cancion> ( AsItWas, WatermelonSugar, AdoreYou, SignOfTheTimes );
-List<Cancion> cancionesRosalia = new List<Cancion> ( Despecha, Motomami, LaFama, Saoko );
-List<Cancion> cancionesEd = new List<Cancion> ( ShapeOfYou, Perfect, BadHabits, EyesClosed );
-List<Cancion> cancionesKarol = new List<Cancion> ( TQG, Provenza, Bichota, Cairo );
-List<Cancion> cancionesWeeknd = new List<Cancion> ( BlindingLights, SaveYourTears, Starboy, DieForYou );
-List<Cancion> cancionesShakira = new List<Cancion> ( HipsDontLie, WakaWaka, Monotonia, Chantaje );
+List<Cancion> cancionesTaylor = new List<Cancion> { LoveStory, BlankSpace, AntiHero, CruelSummer };
+List<Cancion> cancionesBadBunny = new List<Cancion> { TitiMePregunto, MePortoBonito, Yonaguni, OjitosLindos };
+List<Cancion> cancionesBillie = new List<Cancion> { BadGuy, HappierThanEver, OceanEyes, ThereforeIAm };
+List<Cancion> cancionesDua = new List<Cancion> { DontStartNow, Levitating, NewRules, Houdini };
+List<Cancion> cancionesHarry = new List<Cancion> { AsItWas, WatermelonSugar, AdoreYou, SignOfTheTimes };
+List<Cancion> cancionesRosalia = new List<Cancion> { Despecha, Motomami, LaFama, Saoko };
+List<Cancion> cancionesEd = new List<Cancion> { ShapeOfYou, Perfect, BadHabits, EyesClosed };
+List<Cancion> cancionesKarol = new List<Cancion> { TQG, Provenza, Bichota, Cairo };
+List<Cancion> cancionesWeeknd = new List<Cancion> { BlindingLights, SaveYourTears, Starboy, DieForYou };
+List<Cancion> cancionesShakira = new List<Cancion> { HipsDontLie, WakaWaka, Monotonia, Chantaje };
 
 // =================== DISCOS ===================
 
