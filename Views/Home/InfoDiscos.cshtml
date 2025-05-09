@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Disco - " + ViewBag.disco.disco;
+}
+<section>
+    <div class="disco">
+        <h2>
+            @ViewBag.disco.disco
+        </h2>
+        <ul>
+            <li>Artista: @ViewBag.disco.artista</li>
+            <li>Género: @ViewBag.disco.genero</li>
+            <li>Productor: @ViewBag.disco.productor</li>
+        </ul>
+        <img src=@ViewBag.disco.foto alt="ERROR">
+        @foreach(Cancion cancion in ViewBag.disco.canciones)
+        {
+            <a href='@cancion.link'>@cancion.nombre</a>
+        }
+    </div>
+</section>
