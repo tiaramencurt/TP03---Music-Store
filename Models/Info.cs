@@ -88,16 +88,16 @@ namespace TP03posta.Models
 
             // =================== DISCOS ===================
 
-            Disco Fearless = new Disco("Fearless", "Taylor Swift", "Jack Antonoff", "Pop / Country", cancionesTaylor, 0, "/imagenes/taylor swift.jpg");
-            Disco UnVeranoSinTi = new Disco("Un Verano Sin Ti", "Bad Bunny", "Tainy", "Reggaetón / Trap latino", cancionesBadBunny, 1, "/imagenes/bad bunnt.jpg");
-            Disco HappierThanEverDisco = new Disco("Happier Than Ever", "Billie Eilish", "Finneas", "Pop alternativo", cancionesBillie, 2, "/imagenes/billie eilish.jpg");
-            Disco FutureNostalgia = new Disco("Future Nostalgia", "Dua Lipa", "Ian Kirkpatrick", "Pop / Dance", cancionesDua, 3, "/imagenes/dua lipa.jpg");
-            Disco HarrysHouse = new Disco("Harry's House", "Harry Styles", "Kid Harpoon", "Pop / Rock", cancionesHarry, 4, "/imagenes/harry styles.jpg");
-            Disco MotomamiDisco = new Disco("Motomami", "ROSALÍA", "El Guincho", "Pop / Experimental", cancionesRosalia, 5, "/imagenes/rosalia.jpg");
-            Disco Divide = new Disco("Divide", "Ed Sheeran", "Ed Sheeran", "Pop / Folk", cancionesEd, 6, "/imagenes/ed sheeran.jpg");
-            Disco MananaSeraBonito = new Disco("Mañana Será Bonito", "Karol G", "Ovy On The Drums", "Urbano / Reggaetón", cancionesKarol, 7, "/imagenes/karol g.jpg");
-            Disco AfterHours = new Disco("After Hours", "The Weeknd", "Max Martin", "Synthpop / R&B", cancionesWeeknd, 8, "/imagenes/the weeknd.jpg");
-            Disco ElDorado = new Disco("El Dorado", "Shakira", "Luis Fernando Ochoa", "Pop latino / Reggaetón", cancionesShakira, 9, "/imagenes/shakira.jpg"); 
+            Disco Fearless = new Disco("Fearless", "Taylor Swift", "Jack Antonoff", "Pop / Country", cancionesTaylor, 0, "/imagenes/fearless.jpg");
+            Disco UnVeranoSinTi = new Disco("Un Verano Sin Ti", "Bad Bunny", "Tainy", "Reggaetón / Trap latino", cancionesBadBunny, 1, "/imagenes/veranoSinTi.jpg");
+            Disco HappierThanEverDisco = new Disco("Happier Than Ever", "Billie Eilish", "Finneas", "Pop alternativo", cancionesBillie, 2, "/imagenes/happierThanEver.jpg");
+            Disco FutureNostalgia = new Disco("Future Nostalgia", "Dua Lipa", "Ian Kirkpatrick", "Pop / Dance", cancionesDua, 3, "/imagenes/futureNostalgia.jpg");
+            Disco HarrysHouse = new Disco("Harry's House", "Harry Styles", "Kid Harpoon", "Pop / Rock", cancionesHarry, 4, "/imagenes/harrysHouse.jpg");
+            Disco MotomamiDisco = new Disco("Motomami", "ROSALÍA", "El Guincho", "Pop / Experimental", cancionesRosalia, 5, "/imagenes/motomami.jpg");
+            Disco Divide = new Disco("Divide", "Ed Sheeran", "Ed Sheeran", "Pop / Folk", cancionesEd, 6, "/imagenes/divide.jpg");
+            Disco MananaSeraBonito = new Disco("Mañana Será Bonito", "Karol G", "Ovy On The Drums", "Urbano / Reggaetón", cancionesKarol, 7, "/imagenes/mañanaSeraBonito.jpg");
+            Disco AfterHours = new Disco("After Hours", "The Weeknd", "Max Martin", "Synthpop / R&B", cancionesWeeknd, 8, "/imagenes/afterHours.jpg");
+            Disco ElDorado = new Disco("El Dorado", "Shakira", "Luis Fernando Ochoa", "Pop latino / Reggaetón", cancionesShakira, 9, "/imagenes/elDorado.jpg"); 
 
             listaDiscos.Add(Fearless.id, Fearless);
             listaDiscos.Add(UnVeranoSinTi.id, UnVeranoSinTi);
