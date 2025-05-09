@@ -22,20 +22,13 @@ public class HomeController : Controller
 
     public IActionResult SelectDisco(int id)
     {
-        //Consigna: Debe recibir el dni de un alumno que desea ver. Luego traer la info de los integrantes del diccionario y buscar el dni recibido.
-        /*Cargar la información requerida del integrante correspondiente en un ViewBag.
-        Cargar el DNI en otro ViewBag
-        Retornar la vista infoDatosPersonales.
-        */
         Info.InicializarGrupo();
         if (Info.listaDiscos.ContainsKey(id))
         {
-            ViewBag.disco = Info.listaDiscos[id].disco;
-            ViewBag.DNI = DNI;
+            ViewBag.disco = Info.listaDiscos[id];
+            ViewBag.id = id;
         }
-       
-        return View ("InfoDatosPersonales");
-
+        return View ("InfoDiscos");
     }
 
 }
