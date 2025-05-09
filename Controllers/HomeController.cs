@@ -16,7 +16,8 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         Info.InicializarGrupo();
-        ViewBag.discos = Info.listaDiscos();
+        ViewBag.discos = Info.listaDiscos;
         return View();
     }
+    
 }

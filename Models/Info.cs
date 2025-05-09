@@ -7,12 +7,12 @@ namespace TP03posta.Models
 {
     public class Info
     {
-        static public List<Disco> listaDiscos { get; private set; }
+        static public Dictionary<int, Disco> listaDiscos { get; private set; }
 
         public static void InicializarGrupo()
         {
             // =================== CANCIONES ===================
-            listaDiscos = new List<Disco>();
+            listaDiscos = new Dictionary<int, Disco>();
             // Taylor Swift
             Cancion LoveStory = new Cancion("Love Story", "https://youtu.be/8xg3vE8Ie_E");
             Cancion BlankSpace = new Cancion("Blank Space", "https://youtu.be/e-ORhEE9VVg");
@@ -99,16 +99,16 @@ namespace TP03posta.Models
             Disco AfterHours = new Disco("After Hours", "The Weeknd", "Max Martin", "Synthpop / R&B", cancionesWeeknd, 8, "/imagenes/the weeknd.jpg");
             Disco ElDorado = new Disco("El Dorado", "Shakira", "Luis Fernando Ochoa", "Pop latino / Reggaetón", cancionesShakira, 9, "/imagenes/shakira.jpg"); 
 
-            listaDiscos.Add(Fearless);
-            listaDiscos.Add(UnVeranoSinTi);
-            listaDiscos.Add(HappierThanEverDisco);
-            listaDiscos.Add(FutureNostalgia);
-            listaDiscos.Add(HarrysHouse);
-            listaDiscos.Add(MotomamiDisco);
-            listaDiscos.Add(Divide);
-            listaDiscos.Add(MananaSeraBonito);
-            listaDiscos.Add(AfterHours);
-            listaDiscos.Add(ElDorado);
+            listaDiscos.Add(Fearless.id, Fearless);
+            listaDiscos.Add(UnVeranoSinTi.id, UnVeranoSinTi);
+            listaDiscos.Add(HappierThanEverDisco.id, HappierThanEverDisco);
+            listaDiscos.Add(FutureNostalgia.id, FutureNostalgia);
+            listaDiscos.Add(HarrysHouse.id, HarrysHouse);
+            listaDiscos.Add(MotomamiDisco.id, MotomamiDisco);
+            listaDiscos.Add(Divide.id, Divide);
+            listaDiscos.Add(MananaSeraBonito.id, MananaSeraBonito);
+            listaDiscos.Add(AfterHours.id, AfterHours);
+            listaDiscos.Add(ElDorado.id, ElDorado);
         }
     }
 }
